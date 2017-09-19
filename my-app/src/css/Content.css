@@ -1,0 +1,81 @@
+.Content {
+  flex: 1;
+  background-color: white;
+  text-align: left;
+  overflow: auto;
+}
+
+.ListItem {
+  /* background-color: green; */
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.Title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.Detail {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: gray;
+}
+
+.ItemFooter {
+  display: flex;
+  /* background-color: red; */
+  align-items: center;
+}
+
+.Date {
+  color: gray;
+  font-size: 12px;
+  margin-top: 0px;  
+  margin-bottom: 0px;
+}
+
+.Tag {
+  color: #353232;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Dot {
+  margin-left: 8px;
+  margin-right: 8px;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ReadMoreButton {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-color: rgba(20,129,209,1);
+  height: 25px;
+  /* width: 50px; */
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 15px;
+  color: rgba(20,129,209,1);
+  font-size: 12px;
+}
+
+.ReadMoreButton:hover {
+  border-color: rgb(113, 159, 193);
+  color: rgb(113, 159, 193);
+}
+
+.Line {
+  margin-top: 40px;
+  width: 300px;
+  height: 1px;
+  background-color: gray;
+}
